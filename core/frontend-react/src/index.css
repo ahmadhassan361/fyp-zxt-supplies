@@ -1,0 +1,37 @@
+:root{
+  --main-dark: '#313235'
+}
+body{
+  font-family: 'Roboto', sans-serif;
+}
+.dropdown-toggle::after{
+  border: none;
+}
+.bg-main{
+  background-color: #2e3134;
+}
+.bg-main-dark{
+  background-color: #1c1b1b;
+}
+::-webkit-scrollbar {
+  width: 3px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #484848; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #202020; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #202020; 
+}
+.selected {
+  border: 2px solid #0D6EFD;
+  opacity: 0.7;
+}
