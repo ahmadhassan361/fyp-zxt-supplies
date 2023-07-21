@@ -40,10 +40,14 @@ INSTALLED_APPS = [
     'rest_framework',
     'api',
     'rest_framework.authtoken',
-    'corsheaders'
+    'corsheaders',
+    'django_extensions'
 
 ]
-
+GRAPH_MODELS ={
+    'all_applications': True,
+    'graph_models': True,
+     }
 MIDDLEWARE = [
     "corsheaders.middleware.CorsMiddleware",
     'django.middleware.security.SecurityMiddleware',
